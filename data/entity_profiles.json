@@ -1,0 +1,6133 @@
+[
+  {
+    "entity_id": "user_0000",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/api/v1/network/scan",
+      "/api/v1/auth/tokens",
+      "/api/v1/billing"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "22:39:0c:8c:7d:72",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0001",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "port:3389",
+      "/api/v1/auth/tokens",
+      "port:27017",
+      "port:3306",
+      "device:sensor_read",
+      "device:firmware_update"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "16:34:2c:d8:10:0f",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0002",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "file:/home/admin/.ssh/id_rsa",
+      "port:5432",
+      "port:3389",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "38:6f:77:0d:65:d6",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0003",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "port:27017",
+      "port:22",
+      "/api/v1/data/export",
+      "device:actuator_write",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "56:e5:8e:03:51:d8",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0004",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/logs",
+      "/api/v1/admin",
+      "port:5432",
+      "/api/v1/devices/register",
+      "file:/etc/passwd",
+      "/api/v1/firewall/rules",
+      "/api/v1/data/export",
+      "device:sensor_read"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "16:8e:4f:6e:ac:34",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0005",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "port:27017",
+      "/internal/storage/write",
+      "port:3389",
+      "/api/v1/logs",
+      "/internal/db/query"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "ce:c2:31:b7:b0:87",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0006",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "port:3306",
+      "file:/opt/app/config.yml",
+      "file:/etc/passwd",
+      "device:actuator_write",
+      "/api/v1/admin",
+      "/api/v1/devices/register",
+      "file:/home/admin/.ssh/id_rsa",
+      "/internal/db/query"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "8c:16:eb:3f:c1:28",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0007",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "/internal/storage/read",
+      "device:sensor_read",
+      "port:3306",
+      "/internal/keys/rotate",
+      "/api/v1/logs",
+      "/api/v1/network/scan",
+      "file:/opt/app/config.yml"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "a8:96:b9:62:23:17",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0008",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/api/v1/network/scan",
+      "device:config_change",
+      "/api/v1/billing",
+      "/api/v1/config"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "60:74:94:28:77:33",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0009",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "port:8080",
+      "/internal/keys/rotate",
+      "port:22",
+      "/api/v1/network/scan",
+      "port:3389"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "5a:8e:e8:ba:53:bd",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0010",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "port:443",
+      "file:/home/admin/.ssh/id_rsa",
+      "/internal/db/query"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "28:6b:88:24:57:7d",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0011",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "port:8080",
+      "file:/opt/app/config.yml",
+      "port:3306",
+      "port:22",
+      "device:config_change",
+      "/api/v1/auth/tokens",
+      "/api/v1/logs",
+      "/internal/db/admin"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "d6:ec:c2:8a:70:a6",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0012",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "port:6379",
+      "port:8080",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "44:1c:75:10:a1:cd",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0013",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/network/scan",
+      "device:firmware_update",
+      "/internal/db/query"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "64:21:6c:a1:6c:ff",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0014",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "port:6379",
+      "/internal/keys/rotate",
+      "device:sensor_read",
+      "port:22",
+      "device:firmware_update",
+      "/api/v1/config"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "be:ea:49:87:47:7e",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0015",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/api/v1/users",
+      "/api/v1/data/export",
+      "port:27017",
+      "port:3306",
+      "/api/v1/admin",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "22:86:db:cc:b9:70",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0016",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "/api/v1/auth/tokens",
+      "port:3389",
+      "/api/v1/logs",
+      "port:6379",
+      "port:443",
+      "file:/opt/app/config.yml",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "a0:fc:2e:18:38:4e",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0017",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "file:/home/admin/.ssh/id_rsa",
+      "/internal/db/admin",
+      "/internal/storage/write",
+      "device:actuator_write",
+      "/internal/keys/rotate",
+      "port:6379",
+      "/api/v1/admin",
+      "port:5432"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "98:51:d8:20:c5:c3",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0018",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "/internal/storage/read",
+      "device:sensor_read",
+      "/api/v1/network/scan",
+      "file:/home/admin/.ssh/id_rsa"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "c4:ef:80:05:3a:88",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0019",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "/api/v1/admin",
+      "port:3306",
+      "port:3389",
+      "file:/opt/app/config.yml",
+      "/api/v1/users",
+      "/api/v1/data/export"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "74:ae:39:96:de:50",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0020",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/config",
+      "/api/v1/billing",
+      "/internal/storage/read",
+      "/api/v1/users",
+      "device:actuator_write",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "d6:01:86:5b:36:98",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0021",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "port:443",
+      "/internal/storage/write",
+      "/api/v1/config",
+      "port:3306"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "98:65:4e:bf:52:00",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0022",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/billing",
+      "file:/home/admin/.ssh/id_rsa",
+      "device:config_change",
+      "/api/v1/data/export",
+      "port:8080",
+      "device:sensor_read",
+      "port:5432"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "e0:a5:fa:09:39:b9",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0023",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/billing",
+      "/internal/storage/write",
+      "port:5432",
+      "port:443",
+      "device:sensor_read",
+      "port:22",
+      "/internal/db/query"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "14:9d:7a:1d:7b:28",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0024",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/network/scan",
+      "port:5432",
+      "port:3306",
+      "/api/v1/firewall/rules",
+      "/internal/keys/rotate",
+      "/internal/db/query"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "f2:f8:23:40:41:f3",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0025",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "/internal/storage/write",
+      "port:22",
+      "/api/v1/network/scan",
+      "/api/v1/logs",
+      "/internal/db/admin",
+      "/api/v1/data/export",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "b6:54:87:d8:6c:66",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0026",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "port:8080",
+      "device:actuator_write",
+      "port:5432",
+      "/api/v1/config",
+      "/api/v1/logs",
+      "/api/v1/network/scan",
+      "device:sensor_read",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "1e:9f:cc:bf:e0:e7",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0027",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "port:22",
+      "device:config_change",
+      "/api/v1/config",
+      "/api/v1/billing"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "96:7e:73:20:ad:0a",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0028",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "port:22",
+      "/api/v1/billing",
+      "port:6379",
+      "/internal/keys/rotate",
+      "port:3389",
+      "port:27017",
+      "/internal/storage/write",
+      "file:/home/admin/.ssh/id_rsa"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "3a:75:70:03:24:1e",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0029",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "/internal/storage/write",
+      "/api/v1/logs",
+      "/api/v1/admin",
+      "device:config_change",
+      "/internal/db/admin",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "46:22:10:a9:24:79",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0030",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "port:8080",
+      "port:6379",
+      "/api/v1/logs",
+      "/api/v1/devices/register",
+      "/api/v1/billing",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "c8:f8:6d:43:f2:7c",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0031",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "/api/v1/network/scan",
+      "/api/v1/billing",
+      "file:/var/log/syslog",
+      "port:27017",
+      "/api/v1/config",
+      "/internal/storage/read",
+      "/api/v1/admin"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "a8:f2:d0:61:30:31",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0032",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/api/v1/admin",
+      "/internal/storage/read",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "dc:dc:b5:d8:d2:ef",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0033",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "port:5432",
+      "device:firmware_update",
+      "/api/v1/users",
+      "/api/v1/config",
+      "/api/v1/network/scan",
+      "/api/v1/billing",
+      "port:443",
+      "file:/home/admin/.ssh/id_rsa"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "cc:1b:32:1f:ce:ad",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0034",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/devices/register",
+      "/internal/storage/read",
+      "device:sensor_read",
+      "port:443",
+      "/api/v1/auth/tokens",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "22:37:7f:62:61:e5",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0035",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/logs",
+      "device:firmware_update",
+      "port:5432",
+      "/internal/db/query",
+      "port:8080",
+      "device:sensor_read"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "de:d8:5d:8e:ec:7f",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0036",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "port:443",
+      "port:3389",
+      "/api/v1/logs",
+      "/api/v1/auth/tokens",
+      "/internal/storage/write",
+      "port:5432"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "f8:26:e2:32:19:07",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0037",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/users",
+      "/api/v1/firewall/rules",
+      "device:firmware_update",
+      "/api/v1/auth/tokens",
+      "/internal/storage/write",
+      "file:/var/log/syslog",
+      "port:443"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "7a:2f:79:55:d0:f8",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0038",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "/internal/db/query",
+      "port:5432",
+      "/api/v1/data/export",
+      "/api/v1/firewall/rules",
+      "port:22",
+      "device:firmware_update",
+      "port:3306",
+      "port:8080"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "00:6d:cd:1e:54:c2",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0039",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "/api/v1/data/export",
+      "/internal/deploy/trigger",
+      "device:firmware_update"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "b2:c7:87:e8:92:d8",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0040",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "file:/var/log/syslog",
+      "/api/v1/devices/register",
+      "/api/v1/logs",
+      "port:3306",
+      "port:27017",
+      "/api/v1/users"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "f6:f9:4f:61:97:6f",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0041",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "device:actuator_write",
+      "file:/home/admin/.ssh/id_rsa",
+      "/api/v1/config",
+      "/internal/keys/rotate",
+      "/api/v1/logs",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "94:1d:1f:a0:1d:19",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0042",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:sensor_read",
+      "port:22",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "10:f4:50:1d:29:5f",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0043",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "port:443",
+      "/internal/deploy/trigger",
+      "port:3389"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "94:22:78:ce:3d:7e",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0044",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "/api/v1/firewall/rules",
+      "/internal/storage/write",
+      "/api/v1/logs"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "34:14:29:d6:a1:85",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0045",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/internal/storage/write",
+      "file:/opt/app/config.yml",
+      "file:/etc/passwd"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "aa:a0:7a:87:ca:43",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0046",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "port:3389",
+      "port:6379",
+      "device:actuator_write",
+      "device:firmware_update",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "74:99:ea:a1:25:04",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0047",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "port:5432",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "ee:33:25:6d:87:43",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0048",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "/api/v1/data/export",
+      "port:3306",
+      "/internal/storage/write",
+      "/api/v1/logs",
+      "/internal/keys/rotate",
+      "/api/v1/billing"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "28:b2:23:7d:bd:91",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0049",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "port:5432",
+      "file:/etc/passwd",
+      "port:3389",
+      "file:/opt/app/config.yml",
+      "port:22"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "f0:e0:9a:04:99:35",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0050",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/logs",
+      "/api/v1/data/export",
+      "/api/v1/admin",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "44:44:87:3b:36:4f",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0051",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/devices/register",
+      "port:443",
+      "/api/v1/auth/tokens",
+      "/internal/keys/rotate",
+      "port:27017",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "80:90:6b:af:68:87",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0052",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "/api/v1/admin",
+      "port:8080",
+      "file:/etc/passwd",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "d4:fa:80:1a:2f:d8",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0053",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/devices/register",
+      "file:/var/log/syslog",
+      "port:443",
+      "device:firmware_update",
+      "/api/v1/admin",
+      "/internal/db/admin",
+      "port:3389",
+      "/internal/storage/write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "a2:8d:16:01:aa:42",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0054",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "/internal/storage/write",
+      "/internal/db/admin",
+      "port:3306",
+      "file:/opt/app/config.yml",
+      "/internal/keys/rotate"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "1c:86:52:e2:da:04",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0055",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "file:/home/admin/.ssh/id_rsa",
+      "file:/opt/app/config.yml",
+      "port:6379",
+      "port:443",
+      "/api/v1/network/scan",
+      "/internal/db/query"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "6e:26:4c:12:bd:4b",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0056",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "/internal/db/query",
+      "/api/v1/users",
+      "/internal/deploy/trigger",
+      "file:/home/admin/.ssh/id_rsa",
+      "device:firmware_update",
+      "/api/v1/billing"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "e6:41:15:9d:ba:14",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0057",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "port:3389",
+      "device:config_change",
+      "/api/v1/users",
+      "port:22",
+      "/api/v1/auth/tokens",
+      "/api/v1/data/export",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "c6:b7:6b:7f:34:b5",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0058",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "/api/v1/data/export",
+      "/api/v1/firewall/rules",
+      "/api/v1/devices/register",
+      "/internal/storage/read",
+      "port:27017"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "e0:d0:4f:79:53:5a",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0059",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "port:27017",
+      "/internal/storage/write",
+      "port:6379",
+      "port:3389",
+      "/internal/db/query",
+      "/internal/db/admin",
+      "device:config_change"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "cc:d3:0c:5b:aa:d2",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0060",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "/internal/storage/read",
+      "/internal/db/query",
+      "/api/v1/config",
+      "port:6379",
+      "port:3389",
+      "file:/etc/passwd",
+      "port:27017",
+      "/api/v1/billing"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "de:7f:88:51:37:c3",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0061",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "/internal/storage/read",
+      "port:443",
+      "/internal/keys/rotate"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "58:13:f0:71:66:eb",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0062",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/config",
+      "port:443",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "66:9c:74:72:0c:62",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0063",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "/internal/db/query",
+      "/api/v1/billing",
+      "/api/v1/admin",
+      "/api/v1/network/scan",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "a4:a8:8e:23:8e:b3",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0064",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "port:8080",
+      "/api/v1/billing",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "2c:cc:a9:0e:3b:85",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0065",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "/api/v1/firewall/rules",
+      "file:/home/admin/.ssh/id_rsa",
+      "port:443",
+      "/internal/storage/write",
+      "device:firmware_update"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "ba:87:13:37:de:b0",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0066",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "/internal/db/admin",
+      "/api/v1/logs",
+      "/internal/db/query"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "40:a0:df:3b:c5:61",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0067",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "port:443",
+      "device:actuator_write"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "6e:16:df:00:64:ba",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0068",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/api/v1/firewall/rules",
+      "port:3389"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "80:23:a9:a0:3f:99",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0069",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/devices/register",
+      "/internal/keys/rotate",
+      "port:27017",
+      "/api/v1/firewall/rules",
+      "device:actuator_write",
+      "/internal/storage/read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "8c:9e:d1:a7:ce:97",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0070",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "port:3306",
+      "port:8080",
+      "/api/v1/network/scan",
+      "/api/v1/users",
+      "/api/v1/data/export",
+      "/api/v1/devices/register",
+      "port:5432",
+      "port:443"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "9c:41:62:d7:c2:59",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0071",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:actuator_write",
+      "/api/v1/network/scan",
+      "/api/v1/billing",
+      "port:443",
+      "/internal/storage/write",
+      "port:3306"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "34:9a:cf:00:9b:92",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0072",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "/internal/db/query",
+      "port:5432",
+      "file:/opt/app/config.yml",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "ac:dc:a4:ee:e2:e2",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0073",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "port:22",
+      "port:3306",
+      "/api/v1/devices/register",
+      "file:/var/log/syslog",
+      "/api/v1/users"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "82:6d:f2:56:2b:91",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0074",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "file:/etc/passwd",
+      "/api/v1/admin",
+      "/api/v1/auth/tokens",
+      "/api/v1/network/scan",
+      "port:3389",
+      "/api/v1/logs",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "ce:ab:2f:78:9e:73",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0075",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/users",
+      "file:/opt/app/config.yml",
+      "/api/v1/billing",
+      "/internal/keys/rotate",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "fa:65:4b:0c:17:7d",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0076",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "port:3389",
+      "/internal/storage/write",
+      "file:/opt/app/config.yml",
+      "/internal/deploy/trigger",
+      "device:sensor_read",
+      "/api/v1/devices/register",
+      "/internal/keys/rotate"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "b6:f3:25:e9:d4:63",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0077",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "port:5432",
+      "port:3389",
+      "/api/v1/users",
+      "port:443"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "a6:c4:fd:cc:7c:4b",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0078",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "device:actuator_write",
+      "port:3306",
+      "/internal/storage/read",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "cc:02:36:d9:70:5a",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0079",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "/internal/storage/read",
+      "port:5432",
+      "file:/var/log/syslog",
+      "file:/opt/app/config.yml",
+      "port:3306",
+      "/api/v1/logs",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "22:ed:19:7f:3e:e9",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0080",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "port:22",
+      "device:actuator_write",
+      "/internal/keys/rotate",
+      "/api/v1/users",
+      "port:6379"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "e4:ed:a2:e2:da:e4",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0081",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "port:5432",
+      "file:/var/log/syslog",
+      "/api/v1/billing",
+      "file:/etc/passwd",
+      "port:3306"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "d6:51:f3:e6:84:7e",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0082",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/billing",
+      "file:/home/admin/.ssh/id_rsa",
+      "/api/v1/auth/tokens",
+      "device:sensor_read"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "12:8d:f8:7a:8c:e1",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0083",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "port:27017",
+      "port:6379",
+      "file:/home/admin/.ssh/id_rsa",
+      "/api/v1/firewall/rules",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "e4:92:78:8b:ab:a3",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0084",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "device:config_change",
+      "device:actuator_write",
+      "port:443",
+      "/api/v1/logs",
+      "/api/v1/devices/register",
+      "/internal/keys/rotate"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "b0:29:46:4d:76:c4",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0085",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "/internal/db/query",
+      "/api/v1/data/export",
+      "/internal/keys/rotate",
+      "/internal/db/admin",
+      "port:443",
+      "/api/v1/firewall/rules",
+      "port:3306",
+      "/internal/storage/write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "54:4e:6d:20:d4:d0",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0086",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "file:/etc/passwd",
+      "port:27017"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "62:ee:d4:1f:69:d7",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0087",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/config",
+      "device:actuator_write",
+      "port:8080",
+      "port:6379",
+      "/internal/deploy/trigger",
+      "file:/opt/app/config.yml",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "4c:0a:c2:f4:03:b4",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0088",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "device:sensor_read",
+      "port:3306",
+      "device:actuator_write",
+      "/api/v1/admin",
+      "/api/v1/firewall/rules",
+      "file:/var/log/syslog",
+      "/internal/keys/rotate"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "44:c7:d6:70:f9:70",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0089",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "/internal/db/admin",
+      "/internal/storage/read",
+      "/api/v1/network/scan",
+      "port:6379"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "aa:df:f8:0e:c7:ac",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0090",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "/api/v1/logs",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "e8:cf:54:ef:41:0d",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0091",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "port:22",
+      "/api/v1/devices/register",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "dc:c9:0d:2a:db:45",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0092",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/internal/deploy/trigger",
+      "/api/v1/users",
+      "port:8080",
+      "port:3389",
+      "/internal/db/query",
+      "device:sensor_read",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "52:ec:5d:19:85:c2",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0093",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/data/export",
+      "port:8080",
+      "device:config_change",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "46:6c:e8:a7:ac:c2",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0094",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "/api/v1/firewall/rules",
+      "/api/v1/auth/tokens",
+      "device:config_change",
+      "port:3389"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "be:d7:81:29:f0:09",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0095",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "port:6379",
+      "port:27017",
+      "/api/v1/config",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "c0:1a:b3:72:23:14",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0096",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "device:config_change",
+      "file:/var/log/syslog",
+      "/internal/db/query",
+      "/api/v1/devices/register",
+      "/api/v1/logs",
+      "device:actuator_write",
+      "port:443"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "3c:0f:7e:66:0a:4e",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0097",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "/api/v1/users",
+      "port:3389",
+      "/api/v1/network/scan",
+      "port:22"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "b2:40:f2:3a:6f:ee",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0098",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "port:3306",
+      "/api/v1/admin",
+      "/internal/db/admin",
+      "port:22"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "f6:83:bc:55:3a:53",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0099",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "file:/etc/passwd",
+      "/internal/db/admin",
+      "port:22",
+      "port:443",
+      "/api/v1/config"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "64:9f:37:0d:9f:c0",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0100",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "device:config_change",
+      "/internal/deploy/trigger",
+      "file:/home/admin/.ssh/id_rsa",
+      "/internal/storage/read",
+      "/internal/storage/write",
+      "port:5432",
+      "/api/v1/config"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "d8:65:26:7c:34:9a",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0101",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/network/scan",
+      "port:3389",
+      "port:3306"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "10:3d:15:b1:db:bd",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0102",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/devices/register",
+      "file:/home/admin/.ssh/id_rsa",
+      "port:3306",
+      "device:actuator_write",
+      "file:/etc/passwd",
+      "port:3389",
+      "port:6379",
+      "/api/v1/auth/tokens"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "6e:ae:06:d7:fa:36",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0103",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "port:6379",
+      "/api/v1/config",
+      "/internal/db/query",
+      "/internal/storage/write",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "ba:b9:eb:4e:de:5a",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0104",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/billing",
+      "file:/home/admin/.ssh/id_rsa",
+      "/api/v1/auth/tokens"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "52:8a:f7:ee:df:89",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0105",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "port:27017",
+      "file:/home/admin/.ssh/id_rsa",
+      "port:5432",
+      "file:/etc/passwd",
+      "/internal/storage/write",
+      "port:6379"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "c0:7d:2c:8e:e6:7c",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0106",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "/internal/storage/write",
+      "/api/v1/logs",
+      "port:5432",
+      "/internal/deploy/trigger",
+      "/api/v1/devices/register",
+      "/api/v1/config",
+      "/internal/db/admin"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "d8:ed:c2:ac:0e:fd",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0107",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "port:8080",
+      "device:actuator_write",
+      "port:5432",
+      "file:/opt/app/config.yml",
+      "port:27017",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "cc:a6:5d:f9:6c:b5",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0108",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "/internal/db/admin",
+      "/api/v1/firewall/rules",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "84:84:ae:8f:8d:05",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0109",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "/internal/keys/rotate",
+      "/internal/db/query",
+      "/api/v1/billing",
+      "/internal/db/admin",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "8e:61:2b:7b:d0:fa",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0110",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/billing",
+      "/api/v1/network/scan",
+      "/internal/keys/rotate",
+      "port:5432",
+      "/internal/storage/write",
+      "/internal/deploy/trigger",
+      "port:8080",
+      "device:actuator_write"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "16:7b:f3:fb:e5:08",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0111",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/devices/register",
+      "/api/v1/firewall/rules",
+      "port:5432",
+      "device:actuator_write",
+      "port:443",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "a8:96:71:cf:7c:9c",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0112",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "port:8080",
+      "/internal/storage/write",
+      "/api/v1/network/scan",
+      "port:22"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "5a:bc:f2:b0:d9:a9",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0113",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/network/scan",
+      "file:/etc/passwd",
+      "/internal/keys/rotate",
+      "port:27017"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "1e:e8:8a:9c:80:76",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0114",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/logs",
+      "file:/home/admin/.ssh/id_rsa",
+      "/internal/db/query",
+      "port:443",
+      "/internal/storage/write",
+      "device:sensor_read"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "36:62:a1:3d:5e:62",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0115",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "/internal/db/query",
+      "device:actuator_write",
+      "port:6379",
+      "/api/v1/billing",
+      "file:/home/admin/.ssh/id_rsa"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "4a:f7:8d:90:33:63",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0116",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "port:8080",
+      "port:6379",
+      "/internal/db/query",
+      "/api/v1/devices/register",
+      "device:actuator_write",
+      "file:/etc/passwd"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "b4:74:b8:5b:9a:07",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0117",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "/internal/deploy/trigger",
+      "/api/v1/auth/tokens",
+      "port:22",
+      "/internal/storage/read"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "b2:40:8c:17:1b:95",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0118",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "port:5432",
+      "device:actuator_write",
+      "device:config_change",
+      "port:443",
+      "port:3306"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "78:40:fb:34:06:91",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0119",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "port:8080",
+      "file:/var/log/syslog",
+      "/api/v1/network/scan",
+      "port:443",
+      "/api/v1/admin",
+      "/internal/db/admin"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "40:f5:e1:ae:5e:1a",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0120",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "port:443",
+      "/api/v1/logs",
+      "/api/v1/billing",
+      "file:/etc/passwd",
+      "device:actuator_write"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "12:f4:3a:21:cd:fb",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0121",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "device:firmware_update",
+      "/api/v1/admin",
+      "/internal/keys/rotate",
+      "/api/v1/config",
+      "file:/var/log/syslog",
+      "/internal/db/query"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "3e:1b:4d:4c:9b:2b",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0122",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/internal/db/query",
+      "/internal/db/admin",
+      "device:firmware_update",
+      "/api/v1/firewall/rules",
+      "/internal/storage/read",
+      "/internal/storage/write",
+      "file:/etc/passwd"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "e8:3c:d5:73:c2:e6",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0123",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "port:443",
+      "port:22"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "9c:e2:98:db:9c:1e",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0124",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "file:/var/log/syslog",
+      "/api/v1/network/scan",
+      "/api/v1/billing",
+      "port:8080",
+      "file:/etc/passwd"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "28:32:6a:6c:87:29",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0125",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "port:6379",
+      "/api/v1/users",
+      "/internal/db/admin",
+      "/api/v1/firewall/rules",
+      "/api/v1/billing",
+      "/api/v1/auth/tokens",
+      "/internal/db/query"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "68:7a:58:26:50:01",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0126",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "/api/v1/data/export",
+      "port:5432",
+      "/api/v1/network/scan",
+      "file:/etc/passwd"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "48:e6:f0:95:10:76",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0127",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "port:6379",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "c8:90:e8:24:77:87",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0128",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "/internal/storage/read",
+      "port:6379",
+      "device:sensor_read",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "e8:65:d9:3a:73:4c",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0129",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/network/scan",
+      "port:22",
+      "/api/v1/config",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "ca:88:48:24:1e:54",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0130",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "/internal/db/query",
+      "port:3389",
+      "device:sensor_read"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "b0:9d:93:e0:3f:ef",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0131",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "/api/v1/config",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "14:9b:ce:8b:fc:e0",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0132",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "port:3306",
+      "/api/v1/auth/tokens",
+      "port:5432"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "16:14:dd:a5:80:0d",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0133",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "/internal/keys/rotate",
+      "port:8080",
+      "/api/v1/users",
+      "/api/v1/data/export",
+      "device:sensor_read",
+      "/api/v1/network/scan",
+      "/api/v1/auth/tokens"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "78:75:0a:89:14:59",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0134",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/config",
+      "/internal/deploy/trigger",
+      "file:/opt/app/config.yml"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "f8:e2:8e:5c:df:fb",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0135",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "device:config_change",
+      "/internal/storage/write",
+      "/api/v1/users",
+      "port:8080",
+      "/internal/db/admin",
+      "/api/v1/devices/register",
+      "port:443"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "52:2e:f0:b2:d1:aa",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0136",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "/internal/storage/read",
+      "file:/home/admin/.ssh/id_rsa",
+      "/internal/deploy/trigger",
+      "device:config_change",
+      "port:3306",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "48:35:52:a8:d2:fd",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0137",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "/api/v1/auth/tokens",
+      "port:5432",
+      "/api/v1/network/scan",
+      "/api/v1/data/export"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "40:cd:12:e8:2d:a1",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0138",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/internal/db/admin",
+      "file:/var/log/syslog",
+      "/api/v1/logs",
+      "/api/v1/data/export",
+      "port:27017",
+      "file:/etc/passwd",
+      "/internal/keys/rotate",
+      "/api/v1/admin"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "68:a5:3b:ce:00:ec",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0139",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "file:/var/log/syslog",
+      "device:firmware_update",
+      "port:22",
+      "/api/v1/data/export",
+      "/internal/storage/read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "c2:1b:60:b9:ff:e2",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0140",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "file:/home/admin/.ssh/id_rsa",
+      "file:/var/log/syslog",
+      "device:sensor_read",
+      "file:/etc/passwd",
+      "port:5432"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "70:1a:68:88:43:93",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0141",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "file:/home/admin/.ssh/id_rsa",
+      "/api/v1/billing",
+      "/internal/db/admin"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "4e:f8:3e:0e:7a:51",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0142",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "file:/home/admin/.ssh/id_rsa",
+      "/internal/db/query",
+      "port:27017",
+      "/api/v1/data/export"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "76:07:d0:2f:73:3a",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0143",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "/internal/db/query",
+      "/api/v1/admin",
+      "/api/v1/firewall/rules",
+      "device:sensor_read",
+      "/api/v1/data/export"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "6a:3c:4e:ff:95:8b",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0144",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/data/export",
+      "port:8080",
+      "/api/v1/logs",
+      "port:5432",
+      "/internal/keys/rotate",
+      "/internal/db/admin",
+      "file:/opt/app/config.yml"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "62:f7:f1:7c:e9:4a",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0145",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "port:3389",
+      "/internal/deploy/trigger",
+      "/api/v1/devices/register",
+      "/api/v1/admin",
+      "/internal/db/admin"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "56:61:45:23:8d:d4",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0146",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "/api/v1/auth/tokens",
+      "port:8080",
+      "/api/v1/firewall/rules",
+      "port:27017",
+      "/internal/deploy/trigger",
+      "device:firmware_update",
+      "/api/v1/config"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "dc:88:01:90:98:fa",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0147",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "port:3306",
+      "port:5432",
+      "/internal/db/admin",
+      "port:27017",
+      "/api/v1/data/export",
+      "port:3389",
+      "file:/opt/app/config.yml",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "8c:4c:e4:f7:b0:aa",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0148",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "/internal/storage/read",
+      "/api/v1/network/scan",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "92:c1:e9:a4:60:7a",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0149",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/network/scan",
+      "port:8080",
+      "device:sensor_read",
+      "/api/v1/data/export",
+      "device:actuator_write",
+      "/api/v1/firewall/rules",
+      "/internal/storage/read"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "be:c4:77:d2:16:a2",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0150",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/logs",
+      "device:sensor_read",
+      "device:actuator_write",
+      "port:27017",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "f6:f2:c3:c5:4d:fd",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0151",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "device:config_change",
+      "/api/v1/billing",
+      "device:actuator_write",
+      "/internal/db/query",
+      "port:27017",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "18:12:40:a9:33:e1",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0152",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "port:8080",
+      "/api/v1/billing",
+      "/internal/db/query",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "12:e9:07:49:d1:4f",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0153",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "port:22",
+      "/internal/storage/write",
+      "file:/opt/app/config.yml"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "da:f0:87:ad:cb:29",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0154",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "file:/var/log/syslog",
+      "device:firmware_update",
+      "port:5432",
+      "/internal/storage/read",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "9e:a8:c2:a2:f9:12",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0155",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "/internal/keys/rotate",
+      "/api/v1/auth/tokens",
+      "/internal/db/query",
+      "port:8080",
+      "/api/v1/logs"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "6e:23:78:93:74:2e",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0156",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/auth/tokens",
+      "port:3306",
+      "/internal/deploy/trigger",
+      "device:actuator_write",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "e6:32:33:e3:55:99",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0157",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "file:/opt/app/config.yml",
+      "/internal/deploy/trigger",
+      "/internal/db/query",
+      "port:3306"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "5a:0e:17:a6:1c:96",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0158",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "/api/v1/admin",
+      "/api/v1/billing",
+      "file:/var/log/syslog",
+      "device:actuator_write"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "90:bf:dc:4a:7d:d2",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0159",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:firmware_update",
+      "port:443",
+      "/api/v1/users",
+      "/api/v1/auth/tokens"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "9e:5c:57:59:28:c3",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0160",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "file:/var/log/syslog",
+      "/api/v1/config",
+      "/internal/storage/read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "a2:7b:fe:49:76:ec",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0161",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "/api/v1/devices/register",
+      "/api/v1/logs",
+      "/api/v1/config",
+      "/internal/storage/read",
+      "/internal/db/admin",
+      "file:/var/log/syslog",
+      "/internal/db/query"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "e6:82:eb:82:04:ee",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0162",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/data/export",
+      "/api/v1/network/scan",
+      "port:5432"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "fc:93:50:25:e2:b0",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0163",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "port:3306",
+      "/api/v1/billing",
+      "/internal/storage/read",
+      "port:8080",
+      "port:6379",
+      "file:/opt/app/config.yml",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "32:99:d9:80:e9:9a",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0164",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "port:6379",
+      "port:5432",
+      "/api/v1/devices/register"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "92:c4:f7:36:79:c3",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0165",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "port:6379",
+      "/api/v1/admin",
+      "port:443",
+      "/internal/deploy/trigger",
+      "/api/v1/billing",
+      "port:22",
+      "port:3306"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "46:b7:97:97:0b:ca",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0166",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "device:sensor_read",
+      "port:3306",
+      "file:/opt/app/config.yml"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "9a:04:19:fe:92:75",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0167",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/config",
+      "port:27017",
+      "/api/v1/logs",
+      "port:22",
+      "/api/v1/auth/tokens",
+      "port:3389",
+      "/internal/db/query",
+      "port:5432"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "a0:b4:70:61:80:46",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0168",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      10,
+      19
+    ],
+    "typical_resources": [
+      "port:27017",
+      "port:5432",
+      "file:/etc/passwd",
+      "file:/home/admin/.ssh/id_rsa",
+      "port:6379",
+      "device:firmware_update",
+      "port:3306"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "94:31:14:9e:e1:11",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0169",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "port:8080",
+      "port:443",
+      "/internal/storage/write",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "be:ba:43:2e:97:a7",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0170",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "file:/var/log/syslog",
+      "port:27017"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "86:d4:59:66:43:bb",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0171",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "port:22",
+      "port:6379",
+      "/internal/deploy/trigger",
+      "/api/v1/auth/tokens",
+      "device:sensor_read",
+      "file:/opt/app/config.yml"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "be:8b:54:83:f6:97",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0172",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/api/v1/config",
+      "/api/v1/auth/tokens"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "c0:ad:3a:ef:26:48",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0173",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "/internal/db/query",
+      "file:/opt/app/config.yml",
+      "device:firmware_update"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "02:73:cb:bb:2e:ca",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0174",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/api/v1/data/export",
+      "/internal/db/admin"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "94:87:3f:e8:bc:86",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0175",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "port:443",
+      "device:sensor_read",
+      "/api/v1/admin",
+      "/api/v1/users",
+      "/api/v1/firewall/rules",
+      "device:config_change",
+      "port:8080",
+      "/api/v1/config"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "06:c3:be:37:77:f1",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0176",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "/api/v1/network/scan",
+      "/api/v1/auth/tokens",
+      "file:/var/log/syslog",
+      "/api/v1/config",
+      "/internal/db/query",
+      "/api/v1/billing"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "a6:a7:71:20:ed:9a",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0177",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      7,
+      19
+    ],
+    "typical_resources": [
+      "/internal/storage/read",
+      "/internal/db/admin",
+      "file:/var/log/syslog",
+      "file:/home/admin/.ssh/id_rsa",
+      "port:3306"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "4c:d1:3b:47:17:13",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0178",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "port:3306",
+      "device:actuator_write",
+      "/api/v1/devices/register",
+      "/api/v1/users",
+      "/api/v1/network/scan",
+      "/internal/storage/read"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "62:fc:3b:31:78:45",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0179",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "port:6379",
+      "/internal/deploy/trigger",
+      "/api/v1/config",
+      "/api/v1/devices/register",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "a6:e8:bd:d6:4f:d4",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0180",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "port:443",
+      "/internal/db/admin",
+      "port:8080",
+      "/api/v1/devices/register",
+      "device:sensor_read",
+      "/api/v1/logs",
+      "/internal/deploy/trigger",
+      "file:/opt/app/config.yml"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "b0:32:fa:d0:8f:10",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0181",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/billing",
+      "device:sensor_read",
+      "port:6379",
+      "/api/v1/logs"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "da:bd:6f:e3:e3:78",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0182",
+    "entity_type": "user",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "port:3306",
+      "device:sensor_read",
+      "/api/v1/devices/register",
+      "/internal/storage/write"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "64:b9:32:bc:b7:1f",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0183",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "device:actuator_write",
+      "/api/v1/config",
+      "port:8080"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "a8:8d:61:3e:e8:2e",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0184",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      8,
+      17
+    ],
+    "typical_resources": [
+      "file:/home/admin/.ssh/id_rsa",
+      "port:27017",
+      "/api/v1/logs"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "fc:6c:0a:19:aa:7c",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0185",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      9,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/network/scan",
+      "file:/opt/app/config.yml",
+      "port:6379",
+      "file:/etc/passwd"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "d0:40:69:23:6a:6e",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0186",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      8,
+      19
+    ],
+    "typical_resources": [
+      "/internal/db/admin",
+      "file:/var/log/syslog",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "da:77:a8:4b:01:8d",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0187",
+    "entity_type": "user",
+    "home_geo": "London",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "file:/opt/app/config.yml",
+      "/api/v1/devices/register",
+      "device:actuator_write",
+      "/internal/keys/rotate",
+      "/internal/db/admin",
+      "/api/v1/logs"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "a8:4a:42:80:59:38",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0188",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      7,
+      20
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "/api/v1/devices/register",
+      "/api/v1/auth/tokens",
+      "/api/v1/data/export",
+      "/api/v1/config",
+      "port:8080",
+      "device:config_change"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "96:0d:43:07:b7:79",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0189",
+    "entity_type": "user",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      10,
+      20
+    ],
+    "typical_resources": [
+      "/internal/storage/write",
+      "/api/v1/config",
+      "/api/v1/network/scan",
+      "port:443"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "20:a5:08:59:87:1a",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0190",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "/internal/keys/rotate",
+      "file:/opt/app/config.yml",
+      "port:8080",
+      "port:3389"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "c6:d7:3a:20:f3:e5",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0191",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      10,
+      17
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "port:3306",
+      "file:/opt/app/config.yml",
+      "/api/v1/firewall/rules",
+      "port:8080"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "ba:b9:37:e7:71:16",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0192",
+    "entity_type": "user",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      8,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "device:actuator_write",
+      "/api/v1/config",
+      "file:/opt/app/config.yml",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "d8:9a:ea:0f:1f:f5",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0193",
+    "entity_type": "user",
+    "home_geo": "New York",
+    "typical_hours": [
+      9,
+      17
+    ],
+    "typical_resources": [
+      "port:6379",
+      "/api/v1/data/export",
+      "port:3389",
+      "device:config_change",
+      "file:/opt/app/config.yml",
+      "/api/v1/auth/tokens"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "12:cd:da:37:fb:e3",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0194",
+    "entity_type": "user",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      7,
+      17
+    ],
+    "typical_resources": [
+      "/internal/storage/write",
+      "device:firmware_update",
+      "port:5432",
+      "port:8080"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "46:29:a4:4b:21:40",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0195",
+    "entity_type": "user",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      10,
+      18
+    ],
+    "typical_resources": [
+      "/internal/storage/write",
+      "/internal/storage/read",
+      "device:actuator_write",
+      "/api/v1/devices/register",
+      "port:3389",
+      "/internal/db/query",
+      "file:/etc/passwd",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "18:a6:c3:96:e8:dc",
+      "protocol": "RDP"
+    }
+  },
+  {
+    "entity_id": "user_0196",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      9,
+      19
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:actuator_write",
+      "/api/v1/auth/tokens",
+      "device:firmware_update",
+      "port:3306"
+    ],
+    "auth_method": "token",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "68:3a:6e:dc:e7:74",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0197",
+    "entity_type": "user",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      7,
+      18
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "/api/v1/users",
+      "/api/v1/network/scan",
+      "port:3389",
+      "port:443",
+      "file:/home/admin/.ssh/id_rsa",
+      "port:6379",
+      "/internal/storage/write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "50:ad:e8:cc:d4:30",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "user_0198",
+    "entity_type": "user",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      8,
+      20
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "device:config_change",
+      "port:3389",
+      "port:3306",
+      "port:5432",
+      "/internal/db/query",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "biometric",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "ae:da:a0:82:bf:4e",
+      "protocol": "SSH"
+    }
+  },
+  {
+    "entity_id": "user_0199",
+    "entity_type": "user",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      9,
+      18
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "/internal/db/admin",
+      "/api/v1/config",
+      "/api/v1/data/export"
+    ],
+    "auth_method": "password",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "6e:f2:22:2e:2b:2f",
+      "protocol": "HTTPS"
+    }
+  },
+  {
+    "entity_id": "svc_0000",
+    "entity_type": "service_account",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/internal/keys/rotate",
+      "/api/v1/logs",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "aa:31:be:42:1e:a8",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0001",
+    "entity_type": "service_account",
+    "home_geo": "New York",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:6379",
+      "/api/v1/config",
+      "device:firmware_update",
+      "device:config_change",
+      "/api/v1/admin"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "f6:3e:d2:b5:d8:1a",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0002",
+    "entity_type": "service_account",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/api/v1/users",
+      "/api/v1/admin",
+      "port:3389",
+      "port:443",
+      "file:/home/admin/.ssh/id_rsa"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "26:93:9f:b4:35:6c",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0003",
+    "entity_type": "service_account",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "/internal/deploy/trigger"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "1c:f6:72:37:b3:bc",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0004",
+    "entity_type": "service_account",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:27017",
+      "port:3389",
+      "file:/var/log/syslog",
+      "/api/v1/billing"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "06:8e:73:db:0d:88",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0005",
+    "entity_type": "service_account",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "/internal/keys/rotate",
+      "port:8080",
+      "/api/v1/billing",
+      "/api/v1/data/export"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "00:5c:8b:9e:ad:b3",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0006",
+    "entity_type": "service_account",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "device:firmware_update",
+      "/api/v1/config",
+      "/api/v1/users",
+      "/internal/db/query"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "bc:5c:49:cd:23:48",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0007",
+    "entity_type": "service_account",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:5432",
+      "/api/v1/auth/tokens",
+      "/api/v1/data/export",
+      "/internal/keys/rotate",
+      "/internal/storage/write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "74:0f:2e:6e:c0:d6",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0008",
+    "entity_type": "service_account",
+    "home_geo": "London",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/api/v1/logs",
+      "port:3389"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "c6:ae:50:bd:9f:a6",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0009",
+    "entity_type": "service_account",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/api/v1/admin",
+      "/internal/storage/write",
+      "/api/v1/firewall/rules",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "ac:2b:1a:4f:50:19",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0010",
+    "entity_type": "service_account",
+    "home_geo": "London",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/internal/deploy/trigger",
+      "file:/etc/passwd",
+      "port:5432"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "9a:29:8b:e2:d9:f8",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0011",
+    "entity_type": "service_account",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:27017",
+      "/api/v1/config"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "58:e2:d4:8b:6e:3a",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0012",
+    "entity_type": "service_account",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/api/v1/logs",
+      "port:5432",
+      "file:/var/log/syslog"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "0a:dc:38:91:f9:9d",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0013",
+    "entity_type": "service_account",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:config_change",
+      "/internal/keys/rotate",
+      "port:27017"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "4c:70:ca:1c:03:68",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0014",
+    "entity_type": "service_account",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "/api/v1/billing",
+      "port:443"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "1e:6c:46:82:94:a7",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0015",
+    "entity_type": "service_account",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:3389",
+      "/api/v1/firewall/rules"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "60:03:fe:dc:59:42",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0016",
+    "entity_type": "service_account",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:3306",
+      "port:6379",
+      "/api/v1/auth/tokens",
+      "/api/v1/billing",
+      "/api/v1/users"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "6e:75:b5:24:cb:15",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0017",
+    "entity_type": "service_account",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:3389",
+      "/api/v1/auth/tokens",
+      "/api/v1/network/scan",
+      "/api/v1/billing"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "92:09:eb:27:a0:db",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0018",
+    "entity_type": "service_account",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "file:/opt/app/config.yml",
+      "/api/v1/auth/tokens",
+      "/api/v1/admin",
+      "/api/v1/billing",
+      "port:27017"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Windows 11",
+      "mac": "04:cf:d5:94:3a:cf",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0019",
+    "entity_type": "service_account",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "file:/etc/passwd",
+      "/api/v1/users",
+      "port:443",
+      "file:/opt/app/config.yml"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "6e:a6:57:eb:b9:2d",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0020",
+    "entity_type": "service_account",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/internal/db/query",
+      "file:/etc/passwd",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "64:36:7c:df:cd:28",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0021",
+    "entity_type": "service_account",
+    "home_geo": "London",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "/api/v1/firewall/rules",
+      "/api/v1/logs",
+      "/internal/db/query"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "12:9e:ad:71:aa:56",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0022",
+    "entity_type": "service_account",
+    "home_geo": "London",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:8080",
+      "device:firmware_update",
+      "/api/v1/logs",
+      "port:6379",
+      "port:22"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "Ubuntu 22.04",
+      "mac": "3c:3a:63:b2:b3:4b",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0023",
+    "entity_type": "service_account",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "/api/v1/auth/tokens",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "9a:34:4a:83:65:58",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0024",
+    "entity_type": "service_account",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:5432",
+      "file:/etc/passwd",
+      "device:sensor_read",
+      "file:/home/admin/.ssh/id_rsa",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "c0:4e:26:5a:fc:ed",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0025",
+    "entity_type": "service_account",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "port:3306",
+      "/internal/db/admin"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "10:e5:a5:a1:4d:e1",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0026",
+    "entity_type": "service_account",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "/internal/deploy/trigger",
+      "port:3306",
+      "file:/etc/passwd"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "5a:f0:e2:9b:8c:1c",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0027",
+    "entity_type": "service_account",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/api/v1/devices/register",
+      "/internal/storage/read",
+      "/internal/db/admin",
+      "/api/v1/admin"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "0e:25:9e:ec:e7:13",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0028",
+    "entity_type": "service_account",
+    "home_geo": "New York",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "port:443",
+      "/api/v1/logs",
+      "file:/opt/app/config.yml",
+      "device:config_change",
+      "/api/v1/network/scan"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "macOS 14",
+      "mac": "76:bc:92:27:2e:c4",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "svc_0029",
+    "entity_type": "service_account",
+    "home_geo": "New York",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "/api/v1/firewall/rules",
+      "file:/home/admin/.ssh/id_rsa",
+      "file:/etc/passwd",
+      "/api/v1/logs"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "RHEL 9",
+      "mac": "80:15:e6:60:a4:f3",
+      "protocol": "gRPC"
+    }
+  },
+  {
+    "entity_id": "device_0000",
+    "entity_type": "edge_device",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:firmware_update",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "fa:4d:1f:e6:34:af",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0001",
+    "entity_type": "edge_device",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:config_change",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "fc:2b:58:14:7e:e0",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0002",
+    "entity_type": "edge_device",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:firmware_update",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "62:e0:51:ba:be:90",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0003",
+    "entity_type": "edge_device",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:config_change",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "54:d1:ad:1a:ab:21",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0004",
+    "entity_type": "edge_device",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:actuator_write",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "54:30:c5:91:81:4c",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0005",
+    "entity_type": "edge_device",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:sensor_read",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "20:29:48:b3:9e:c8",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0006",
+    "entity_type": "edge_device",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:config_change",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "aa:2b:9e:c0:a8:41",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0007",
+    "entity_type": "edge_device",
+    "home_geo": "New York",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:actuator_write",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "4e:2f:d8:b9:09:b9",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0008",
+    "entity_type": "edge_device",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:sensor_read",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "38:5c:6d:ae:f8:62",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0009",
+    "entity_type": "edge_device",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "80:46:4f:27:97:33",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0010",
+    "entity_type": "edge_device",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:firmware_update",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "28:13:ac:43:c0:4e",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0011",
+    "entity_type": "edge_device",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "5c:5c:54:e0:16:d2",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0012",
+    "entity_type": "edge_device",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:firmware_update",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "88:79:e3:91:e5:77",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0013",
+    "entity_type": "edge_device",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:firmware_update",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "ac:7a:9e:f0:63:bc",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0014",
+    "entity_type": "edge_device",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:firmware_update",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "f6:e1:ec:90:c3:d6",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0015",
+    "entity_type": "edge_device",
+    "home_geo": "New York",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:sensor_read",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "a4:52:66:46:80:1a",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0016",
+    "entity_type": "edge_device",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:firmware_update",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "14:f6:be:34:3f:91",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0017",
+    "entity_type": "edge_device",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:firmware_update",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "16:52:8b:e6:4b:df",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0018",
+    "entity_type": "edge_device",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:sensor_read",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "0c:71:e6:b2:0d:d4",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0019",
+    "entity_type": "edge_device",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "5e:ca:bf:78:c5:29",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0020",
+    "entity_type": "edge_device",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:firmware_update",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "ca:72:0e:a3:32:ab",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0021",
+    "entity_type": "edge_device",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:firmware_update",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "b2:4a:46:13:92:f1",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0022",
+    "entity_type": "edge_device",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:config_change",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "04:47:f0:e5:02:28",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0023",
+    "entity_type": "edge_device",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:sensor_read",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "c6:83:6e:4c:d8:38",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0024",
+    "entity_type": "edge_device",
+    "home_geo": "Singapore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:actuator_write",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "3c:93:79:9a:3e:18",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0025",
+    "entity_type": "edge_device",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:config_change",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "98:d6:ea:20:38:ff",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0026",
+    "entity_type": "edge_device",
+    "home_geo": "New York",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:sensor_read",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "00:08:7b:49:95:db",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0027",
+    "entity_type": "edge_device",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:actuator_write",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "86:b4:7b:d5:5f:2b",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0028",
+    "entity_type": "edge_device",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "0a:b8:22:0a:c7:f0",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0029",
+    "entity_type": "edge_device",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:actuator_write",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "c8:c6:bf:81:08:b6",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0030",
+    "entity_type": "edge_device",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:sensor_read",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "22:22:b0:7b:35:aa",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0031",
+    "entity_type": "edge_device",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:sensor_read",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "fa:16:b4:ad:59:ed",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0032",
+    "entity_type": "edge_device",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "08:f5:5d:45:20:ea",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0033",
+    "entity_type": "edge_device",
+    "home_geo": "London",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "50:96:67:16:66:15",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0034",
+    "entity_type": "edge_device",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "c0:9e:cb:f2:81:12",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0035",
+    "entity_type": "edge_device",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:sensor_read",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "44:61:92:b6:18:a9",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0036",
+    "entity_type": "edge_device",
+    "home_geo": "S\u00e3o Paulo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:config_change",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "e4:3f:bc:df:cc:e1",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0037",
+    "entity_type": "edge_device",
+    "home_geo": "Delhi",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:actuator_write",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "5e:c5:ad:5f:fe:fe",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0038",
+    "entity_type": "edge_device",
+    "home_geo": "Sydney",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "9a:88:2a:d9:28:dc",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0039",
+    "entity_type": "edge_device",
+    "home_geo": "Tokyo",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:firmware_update",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "52:5c:96:a4:34:28",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0040",
+    "entity_type": "edge_device",
+    "home_geo": "New York",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:actuator_write",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "b0:97:9c:e4:da:55",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0041",
+    "entity_type": "edge_device",
+    "home_geo": "Frankfurt",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:firmware_update",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "9c:e3:b3:e4:15:b4",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0042",
+    "entity_type": "edge_device",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:firmware_update",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "5c:de:8c:1d:26:cf",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0043",
+    "entity_type": "edge_device",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:actuator_write",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "20:51:0f:49:e0:11",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0044",
+    "entity_type": "edge_device",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:firmware_update",
+      "device:sensor_read",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "f2:22:78:bb:b9:c4",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0045",
+    "entity_type": "edge_device",
+    "home_geo": "London",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:actuator_write",
+      "device:config_change"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "70:10:4e:e6:bd:be",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0046",
+    "entity_type": "edge_device",
+    "home_geo": "London",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:actuator_write",
+      "device:config_change",
+      "device:sensor_read"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "a6:27:46:bb:cb:a0",
+      "protocol": "MQTT"
+    }
+  },
+  {
+    "entity_id": "device_0047",
+    "entity_type": "edge_device",
+    "home_geo": "New York",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:sensor_read",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "7e:8e:7f:3a:0d:5f",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0048",
+    "entity_type": "edge_device",
+    "home_geo": "Mumbai",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:sensor_read",
+      "device:firmware_update",
+      "device:actuator_write"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v3.1",
+      "mac": "36:c6:3c:86:85:e4",
+      "protocol": "CoAP"
+    }
+  },
+  {
+    "entity_id": "device_0049",
+    "entity_type": "edge_device",
+    "home_geo": "Bangalore",
+    "typical_hours": [
+      0,
+      23
+    ],
+    "typical_resources": [
+      "device:config_change",
+      "device:sensor_read",
+      "device:firmware_update"
+    ],
+    "auth_method": "certificate",
+    "device_fp": {
+      "os": "IoT-FW-v2.8",
+      "mac": "da:92:fb:66:3e:45",
+      "protocol": "MQTT"
+    }
+  }
+]

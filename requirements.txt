@@ -1,0 +1,11 @@
+numpy
+pandas
+faker
+scikit-learn
+tensorflow
+shap
+dash
+dash-bootstrap-components
+plotly
+flask
+joblib
