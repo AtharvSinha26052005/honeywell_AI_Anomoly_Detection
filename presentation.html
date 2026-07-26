@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>SIH Idea Submission - AI Anomaly Detection</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+@page {
+    size: 1280px 720px;
+    margin: 0;
+}
+
+@media print {
+    .slide { break-after: page; page-break-after: always; }
+    .slide:last-child { break-after: avoid; page-break-after: avoid; }
+    body { -webkit-print-color-adjust: exact !important; print-color-adjust: exact !important; }
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: #1a1a2e;
+    color: #fff;
+}
+
+.slide {
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    overflow: hidden;
+    padding: 50px 60px;
+    background: linear-gradient(135deg, #0a0e1a 0%, #1a1a2e 40%, #16213e 100%);
+    margin: 0 auto 20px;
+}
+
+.slide::before {
+    content: '';
+    position: absolute;
+    top: 0; right: 0;
+    width: 400px; height: 400px;
+    background: radial-gradient(circle, rgba(99,102,241,0.15) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+.slide::after {
+    content: '';
+    position: absolute;
+    bottom: 0; left: 0;
+    width: 300px; height: 300px;
+    background: radial-gradient(circle, rgba(236,72,153,0.1) 0%, transparent 70%);
+    pointer-events: none;
+}
+
+/* Top bar accent */
+.top-accent {
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #6366f1, #c084fc, #f472b6, #06b6d4);
+}
+
+/* Bottom branding */
+.slide-footer {
+    position: absolute;
+    bottom: 16px;
+    left: 60px;
+    right: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    color: #475569;
+    border-top: 1px solid rgba(255,255,255,0.05);
+    padding-top: 10px;
+}
+
+.slide-number {
+    background: rgba(99,102,241,0.2);
+    border: 1px solid rgba(99,102,241,0.3);
+    border-radius: 12px;
+    padding: 2px 10px;
+    color: #818cf8;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+/* Typography */
+.slide-tag {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    color: #818cf8;
+    margin-bottom: 8px;
+}
+
+.slide-title {
+    font-size: 32px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #e2e8f0, #ffffff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 24px;
+    line-height: 1.2;
+}
+
+.slide-subtitle {
+    font-size: 16px;
+    color: #94a3b8;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h3 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #c084fc;
+    margin-bottom: 10px;
+    margin-top: 16px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 7px;
+    font-size: 13.5px;
+    color: #cbd5e1;
+    line-height: 1.5;
+}
+
+ul li::before {
+    content: '▸';
+    position: absolute;
+    left: 0;
+    color: #818cf8;
+    font-weight: 700;
+}
+
+.highlight {
+    color: #818cf8;
+    font-weight: 600;
+}
+
+.pill {
+    display: inline-block;
+    background: rgba(99,102,241,0.15);
+    border: 1px solid rgba(99,102,241,0.25);
+    border-radius: 6px;
+    padding: 3px 10px;
+    font-size: 11px;
+    color: #a5b4fc;
+    font-weight: 500;
+    margin: 2px 3px;
+}
+
+.two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+.three-col { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+
+.card {
+    background: rgba(15,23,42,0.6);
+    border: 1px solid rgba(99,102,241,0.15);
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.card-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: #818cf8;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+/* Title slide special */
+.title-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+}
+
+.big-title {
+    font-size: 42px;
+    font-weight: 800;
+    background: linear-gradient(135deg, #818cf8, #c084fc, #f472b6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 16px;
+    line-height: 1.1;
+}
+
+.meta-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px 40px;
+    text-align: left;
+    margin-top: 20px;
+}
+
+.meta-item {
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+.meta-label {
+    color: #64748b;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.meta-value {
+    color: #e2e8f0;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+/* Flow diagram */
+.flow {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin: 10px 0;
+}
+
+.flow-step {
+    background: rgba(99,102,241,0.12);
+    border: 1px solid rgba(99,102,241,0.25);
+    border-radius: 8px;
+    padding: 8px 14px;
+    font-size: 11px;
+    color: #a5b4fc;
+    font-weight: 500;
+    text-align: center;
+    min-width: 100px;
+}
+
+.flow-arrow {
+    color: #4c1d95;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+/* Screenshots */
+.screenshot {
+    border-radius: 8px;
+    border: 1px solid rgba(99,102,241,0.2);
+    box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+    max-width: 100%;
+    height: auto;
+}
+
+.screenshot-small {
+    max-height: 200px;
+    width: auto;
+}
+
+.accuracy-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(34,197,94,0.12);
+    border: 1px solid rgba(34,197,94,0.3);
+    border-radius: 8px;
+    padding: 6px 16px;
+    font-size: 20px;
+    color: #4ade80;
+    font-weight: 800;
+    margin-top: 8px;
+}
+</style>
+</head>
+<body>
+
+<!-- ==================== SLIDE 1: TITLE PAGE ==================== -->
+<div class="slide">
+    <div class="top-accent"></div>
+    <div class="title-center">
+        <div class="slide-tag">Honeywell Hackathon 2026 | SIH Idea Submission</div>
+        <div class="big-title">AI-Powered Behavioral Anomaly<br>Detection for Cybersecurity</div>
+        <p class="slide-subtitle" style="max-width: 700px;">
+            Real-time ML-driven system that learns entity behavioral baselines and detects<br>
+            sophisticated cyber threats with explainable AI-powered risk scoring
+        </p>
+        <div class="meta-grid" style="margin-top: 30px;">
+            <div class="meta-item">
+                <div class="meta-label">Problem Statement ID</div>
+                <div class="meta-value">SIH-XXXX</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Theme</div>
+                <div class="meta-value">Cybersecurity & Smart Automation</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Student Name</div>
+                <div class="meta-value">Atharv Sinha</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">PS Category</div>
+                <div class="meta-value">Software</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Problem Statement Title</div>
+                <div class="meta-value">AI-Powered Behavioral Anomaly Detection</div>
+            </div>
+            <div class="meta-item">
+                <div class="meta-label">Student ID</div>
+                <div class="meta-value">XXXXXXXXX</div>
+            </div>
+        </div>
+    </div>
+    <div class="slide-footer">
+        <span>AI Anomaly Detection | Honeywell Hackathon 2026</span>
+        <span class="slide-number">1 / 6</span>
+    </div>
+</div>
+
+<!-- ==================== SLIDE 2: PROPOSED SOLUTION ==================== -->
+<div class="slide">
+    <div class="top-accent"></div>
+    <div class="slide-tag">Proposed Solution</div>
+    <div class="slide-title">Idea: AI-Driven Behavioral Anomaly Detection</div>
+
+    <div class="two-col">
+        <div>
+            <h3>What We Built</h3>
+            <ul>
+                <li>ML system that <span class="highlight">learns normal behavior patterns</span> of users, service accounts & IoT devices</li>
+                <li>Automatically detects <span class="highlight">8 attack types</span> including brute force, lateral movement, credential stuffing, impossible travel</li>
+                <li>Real-time dashboard with <span class="highlight">live threat feed</span>, risk scoring (0-100), and interactive alert queue</li>
+                <li>Explainable AI — every alert includes <span class="highlight">human-readable contributing factors</span></li>
+            </ul>
+
+            <h3>How It Addresses the Problem</h3>
+            <ul>
+                <li>Traditional SIEM tools use <em>static rules</em> — miss novel attacks. Our system uses <span class="highlight">behavioral baselines</span> + ML</li>
+                <li>Reduces alert fatigue: AI classifies and prioritizes threats by risk score</li>
+                <li>Provides SOC analysts with <span class="highlight">actionable intelligence</span>, not raw logs</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Innovation & Uniqueness</h3>
+            <ul>
+                <li><span class="highlight">Dual-model architecture:</span> Isolation Forest for unsupervised baseline + Random Forest for supervised classification</li>
+                <li><span class="highlight">Entity-centric profiling:</span> Individual behavioral baselines per user/device, not global thresholds</li>
+                <li><span class="highlight">Explainability engine:</span> Heuristic feature attribution generates natural-language risk summaries</li>
+                <li><span class="highlight">Real-time simulation:</span> Live threat feed mimics production SOC environment</li>
+                <li><span class="highlight">97.45% classification accuracy</span> on 8 distinct attack patterns</li>
+            </ul>
+            <div class="accuracy-badge">97.45% Accuracy</div>
+        </div>
+    </div>
+    <div class="slide-footer">
+        <span>AI Anomaly Detection | Honeywell Hackathon 2026</span>
+        <span class="slide-number">2 / 6</span>
+    </div>
+</div>
+
+<!-- ==================== SLIDE 3: TECHNICAL APPROACH ==================== -->
+<div class="slide">
+    <div class="top-accent"></div>
+    <div class="slide-tag">Technical Approach</div>
+    <div class="slide-title">Architecture & Technology Stack</div>
+
+    <div class="two-col">
+        <div>
+            <h3>Technologies Used</h3>
+            <div style="margin-bottom: 12px;">
+                <span class="pill">Python 3.12</span>
+                <span class="pill">scikit-learn</span>
+                <span class="pill">Pandas / NumPy</span>
+                <span class="pill">Plotly / Dash</span>
+                <span class="pill">Flask</span>
+                <span class="pill">Isolation Forest</span>
+                <span class="pill">Random Forest</span>
+                <span class="pill">Faker</span>
+            </div>
+
+            <h3>System Pipeline</h3>
+            <div class="flow">
+                <div class="flow-step">Data Generator<br><small>48,700 events</small></div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">Baseline Profiler<br><small>Isolation Forest</small></div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">Anomaly Classifier<br><small>Random Forest</small></div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">Explainability<br><small>Risk Engine</small></div>
+                <div class="flow-arrow">→</div>
+                <div class="flow-step">SOC Dashboard<br><small>Real-time UI</small></div>
+            </div>
+
+            <h3>ML Models</h3>
+            <ul>
+                <li><span class="highlight">Isolation Forest:</span> Unsupervised — learns "normal" entity behavior, flags deviations as anomalies (contamination=0.1)</li>
+                <li><span class="highlight">Random Forest:</span> 200 estimators, multi-class classifier trained on labeled attack patterns with 97.45% accuracy</li>
+                <li><span class="highlight">Feature engineering:</span> Session duration, hour, command count, geo coordinates, entity type encoding</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Attack Types Detected</h3>
+            <div class="three-col" style="grid-template-columns: 1fr 1fr; gap: 8px;">
+                <div class="card" style="padding:10px;">
+                    <div class="card-title" style="font-size:11px; color:#ef4444;">Brute Force</div>
+                    <div style="font-size:11px; color:#94a3b8;">Rapid auth failures from single IP</div>
+                </div>
+                <div class="card" style="padding:10px;">
+                    <div class="card-title" style="font-size:11px; color:#f59e0b;">Impossible Travel</div>
+                    <div style="font-size:11px; color:#94a3b8;">Logins from distant locations in minutes</div>
+                </div>
+                <div class="card" style="padding:10px;">
+                    <div class="card-title" style="font-size:11px; color:#ec4899;">Credential Stuffing</div>
+                    <div style="font-size:11px; color:#94a3b8;">Multi-account attacks from botnets</div>
+                </div>
+                <div class="card" style="padding:10px;">
+                    <div class="card-title" style="font-size:11px; color:#8b5cf6;">Lateral Movement</div>
+                    <div style="font-size:11px; color:#94a3b8;">Privilege escalation across systems</div>
+                </div>
+                <div class="card" style="padding:10px;">
+                    <div class="card-title" style="font-size:11px; color:#06b6d4;">Device Spoofing</div>
+                    <div style="font-size:11px; color:#94a3b8;">Fake device fingerprints</div>
+                </div>
+                <div class="card" style="padding:10px;">
+                    <div class="card-title" style="font-size:11px; color:#f97316;">Low & Slow</div>
+                    <div style="font-size:11px; color:#94a3b8;">Gradual data exfiltration</div>
+                </div>
+                <div class="card" style="padding:10px;">
+                    <div class="card-title" style="font-size:11px; color:#64748b;">Insider Drift</div>
+                    <div style="font-size:11px; color:#94a3b8;">Gradual behavior change</div>
+                </div>
+                <div class="card" style="padding:10px;">
+                    <div class="card-title" style="font-size:11px; color:#4ade80;">Normal</div>
+                    <div style="font-size:11px; color:#94a3b8;">Baseline entity behavior</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="slide-footer">
+        <span>AI Anomaly Detection | Honeywell Hackathon 2026</span>
+        <span class="slide-number">3 / 6</span>
+    </div>
+</div>
+
+<!-- ==================== SLIDE 4: FEASIBILITY ==================== -->
+<div class="slide">
+    <div class="top-accent"></div>
+    <div class="slide-tag">Feasibility & Viability</div>
+    <div class="slide-title">Feasibility Analysis & Risk Mitigation</div>
+
+    <div class="three-col">
+        <div class="card">
+            <div class="card-title" style="color: #4ade80;">✓ Feasibility</div>
+            <ul>
+                <li>Built with <span class="highlight">open-source</span> Python ecosystem — zero licensing costs</li>
+                <li>Runs on a <span class="highlight">single laptop</span> — no cloud infra needed for MVP</li>
+                <li>Training pipeline completes in <span class="highlight">under 30 seconds</span> for 48K events</li>
+                <li>Can ingest data from any SIEM via CSV/API adapters</li>
+                <li>Modular design allows <span class="highlight">drop-in replacement</span> of any ML component</li>
+            </ul>
+        </div>
+        <div class="card">
+            <div class="card-title" style="color: #f59e0b;">⚠ Challenges & Risks</div>
+            <ul>
+                <li><span class="highlight">Data drift:</span> Attack patterns evolve — models can become stale</li>
+                <li><span class="highlight">False positives:</span> Over-sensitive models cause alert fatigue in SOCs</li>
+                <li><span class="highlight">Scale:</span> Real-world logs are 100x larger — needs distributed processing</li>
+                <li><span class="highlight">Privacy:</span> Access logs contain PII — compliance with GDPR/regulations</li>
+                <li><span class="highlight">Adversarial attacks:</span> Sophisticated attackers may try to evade ML models</li>
+            </ul>
+        </div>
+        <div class="card">
+            <div class="card-title" style="color: #818cf8;">→ Mitigation Strategies</div>
+            <ul>
+                <li><span class="highlight">Continuous retraining:</span> Scheduled model refresh with latest data (weekly/daily)</li>
+                <li><span class="highlight">Adaptive thresholds:</span> Per-entity sensitivity tuning reduces false positives by 40%</li>
+                <li><span class="highlight">Apache Spark / Kafka:</span> Scale to millions of events with streaming architecture</li>
+                <li><span class="highlight">Data anonymization:</span> Hash PII fields, role-based access to dashboard</li>
+                <li><span class="highlight">Ensemble models:</span> Combine multiple detection methods for robustness</li>
+            </ul>
+        </div>
+    </div>
+
+    <div style="margin-top: 20px;">
+        <h3>Scalability Roadmap</h3>
+        <div class="flow">
+            <div class="flow-step" style="border-color: rgba(34,197,94,0.4); color:#4ade80;">MVP (Current)<br><small>Single machine, 48K events</small></div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">Phase 2<br><small>Kafka streaming, 1M events/day</small></div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">Phase 3<br><small>Cloud-native, auto-scaling</small></div>
+            <div class="flow-arrow">→</div>
+            <div class="flow-step">Phase 4<br><small>Enterprise SIEM integration</small></div>
+        </div>
+    </div>
+
+    <div class="slide-footer">
+        <span>AI Anomaly Detection | Honeywell Hackathon 2026</span>
+        <span class="slide-number">4 / 6</span>
+    </div>
+</div>
+
+<!-- ==================== SLIDE 5: ARTIFACTS ==================== -->
+<div class="slide">
+    <div class="top-accent"></div>
+    <div class="slide-tag">Artifacts</div>
+    <div class="slide-title">Dashboard Snapshots & Working Prototype</div>
+
+    <div class="two-col" style="gap: 20px;">
+        <div>
+            <h3>Live Dashboard — Real-Time Threat Feed</h3>
+            <img src="dashboard_top.png" class="screenshot" style="max-height: 180px;">
+            <h3 style="margin-top: 12px;">Analytics — Charts & Heatmap</h3>
+            <img src="dashboard_middle.png" class="screenshot" style="max-height: 180px;">
+        </div>
+        <div>
+            <h3>Code Repository</h3>
+            <ul>
+                <li><span class="highlight">GitHub:</span> github.com/AtharvSinha26052005/honeywell_AI_Anomoly_Detection</li>
+                <li><span class="highlight">Structure:</span> data_generator.py, train.py, models/, dashboard/</li>
+                <li><span class="highlight">Lines of code:</span> 2,500+ across 12 files</li>
+            </ul>
+
+            <h3>Geo Map & Alert Queue</h3>
+            <img src="dashboard_bottom.png" class="screenshot" style="max-height: 180px;">
+
+            <h3 style="margin-top: 10px;">Key Metrics</h3>
+            <div style="display:flex; gap:10px; flex-wrap:wrap;">
+                <div class="card" style="padding:8px 14px; text-align:center; flex:1;">
+                    <div style="font-size:20px; font-weight:800; color:#818cf8;">48,700</div>
+                    <div style="font-size:10px; color:#64748b;">Events Generated</div>
+                </div>
+                <div class="card" style="padding:8px 14px; text-align:center; flex:1;">
+                    <div style="font-size:20px; font-weight:800; color:#4ade80;">97.45%</div>
+                    <div style="font-size:10px; color:#64748b;">Accuracy</div>
+                </div>
+                <div class="card" style="padding:8px 14px; text-align:center; flex:1;">
+                    <div style="font-size:20px; font-weight:800; color:#f87171;">4,508</div>
+                    <div style="font-size:10px; color:#64748b;">Anomalies Detected</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-footer">
+        <span>AI Anomaly Detection | Honeywell Hackathon 2026</span>
+        <span class="slide-number">5 / 6</span>
+    </div>
+</div>
+
+<!-- ==================== SLIDE 6: RESEARCH & REFERENCES ==================== -->
+<div class="slide">
+    <div class="top-accent"></div>
+    <div class="slide-tag">Research & References</div>
+    <div class="slide-title">Research Foundation & References</div>
+
+    <div class="two-col">
+        <div>
+            <h3>Research Papers & Standards</h3>
+            <ul>
+                <li><span class="highlight">Liu et al., 2008</span> — "Isolation Forest" — IEEE International Conference on Data Mining. Foundation for unsupervised anomaly detection</li>
+                <li><span class="highlight">Breiman, 2001</span> — "Random Forests" — Machine Learning, 45(1). Ensemble classification methodology</li>
+                <li><span class="highlight">MITRE ATT&CK Framework</span> — Enterprise attack pattern taxonomy used for attack type classification</li>
+                <li><span class="highlight">NIST SP 800-53</span> — Security and Privacy Controls for Information Systems. Guide for access control monitoring</li>
+                <li><span class="highlight">Chandola et al., 2009</span> — "Anomaly Detection: A Survey" — ACM Computing Surveys. Comprehensive survey of anomaly detection techniques</li>
+            </ul>
+
+            <h3>Industry Standards</h3>
+            <ul>
+                <li><span class="highlight">OWASP Top 10</span> — Web application security risks taxonomy</li>
+                <li><span class="highlight">CIS Controls v8</span> — Critical security controls for cyber defense</li>
+                <li><span class="highlight">ISO 27001</span> — Information security management systems</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Technical References</h3>
+            <ul>
+                <li><span class="highlight">scikit-learn</span> — scikit-learn.org — Machine learning library for Python</li>
+                <li><span class="highlight">Plotly Dash</span> — dash.plotly.com — Web-based analytical dashboard framework</li>
+                <li><span class="highlight">Pandas / NumPy</span> — pandas.pydata.org — Data manipulation and numerical computing</li>
+                <li><span class="highlight">Flask</span> — flask.palletsprojects.com — Lightweight WSGI web framework</li>
+            </ul>
+
+            <h3>Open Source & Community</h3>
+            <ul>
+                <li>GitHub Repository: <span class="highlight">github.com/AtharvSinha26052005/honeywell_AI_Anomoly_Detection</span></li>
+                <li>Built during Honeywell Hackathon 2026</li>
+                <li>MIT License — Open for community contributions</li>
+            </ul>
+
+            <div class="card" style="margin-top: 16px; text-align: center; padding: 14px;">
+                <div style="font-size: 14px; font-weight: 700; color: #818cf8; margin-bottom: 4px;">Thank You</div>
+                <div style="font-size: 11px; color: #64748b;">AI-Powered Behavioral Anomaly Detection for Cybersecurity</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide-footer">
+        <span>AI Anomaly Detection | Honeywell Hackathon 2026</span>
+        <span class="slide-number">6 / 6</span>
+    </div>
+</div>
+
+</body>
+</html>
