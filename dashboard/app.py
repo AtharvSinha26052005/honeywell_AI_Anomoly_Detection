@@ -124,6 +124,44 @@ avg_risk = anomaly_df["risk_score"].mean() if len(anomaly_df) > 0 else 0
 # Pre-build live event pool (anomalies only for the ticker)
 live_event_pool = anomaly_df.to_dict("records")
 
+# Pre-compute heatmap data (vectorized, fast)
+DAY_ORDER = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+_day_map = {d: i for i, d in enumerate(DAY_ORDER)}
+_hm_days = anomaly_df["timestamp"].dt.day_name().map(_day_map).values
+_hm_hours = anomaly_df["timestamp"].dt.hour.values
+PRECOMPUTED_HEATMAP = np.zeros((7, 24))
+for _d, _h in zip(_hm_days, _hm_hours):
+    if 0 <= _d < 7 and 0 <= _h < 24:
+        PRECOMPUTED_HEATMAP[int(_d)][int(_h)] += 1
+print(f"  Heatmap precomputed: max={PRECOMPUTED_HEATMAP.max()}, total={PRECOMPUTED_HEATMAP.sum()}")
+
+# Pre-build the ENTIRE heatmap figure at load time
+HEATMAP_FIG = go.Figure(go.Heatmap(
+    z=PRECOMPUTED_HEATMAP.tolist(),
+    x=[f"{h:02d}:00" for h in range(24)],
+    y=DAY_ORDER,
+    colorscale=[[0, "#0f172a"], [0.2, "#1e1b4b"], [0.4, "#4c1d95"], [0.6, "#7c3aed"], [0.8, "#c026d3"], [1, "#ef4444"]],
+    hovertemplate="Day: %{y}<br>Hour: %{x}<br>Anomalies: %{z}<extra></extra>",
+    showscale=True,
+    colorbar=dict(title="Count", title_font=dict(color="#94a3b8"), tickfont=dict(color="#94a3b8")),
+))
+HEATMAP_FIG.update_layout(
+    paper_bgcolor=CHART_BG,
+    plot_bgcolor=CHART_BG,
+    font=dict(family="Inter, sans-serif", color=FONT_COLOR, size=12),
+    margin=dict(l=90, r=20, t=20, b=60),
+    height=350,
+    xaxis=dict(gridcolor=GRID_COLOR, zerolinecolor=GRID_COLOR, tickangle=-45, dtick=3),
+    yaxis=dict(gridcolor=GRID_COLOR, zerolinecolor=GRID_COLOR, autorange="reversed"),
+)
+print(f"  Heatmap figure built: {len(HEATMAP_FIG.data)} traces")
+
+# Pre-compute top entities
+PRECOMPUTED_TOP_ENTITIES = anomaly_df.groupby("entity_id").agg(
+    total_anomalies=("entity_id", "count"),
+    avg_risk=("risk_score", "mean"),
+).sort_values("avg_risk", ascending=True).tail(15)
+
 
 # ---------------------------------------------------------------------------
 # Layout Helpers
@@ -489,35 +527,10 @@ def update_risk_histogram(_):
     return fig2
 
 
-# ===== HEATMAP =====
+# ===== HEATMAP (returns pre-built figure) =====
 @app.callback(Output("heatmap-chart", "figure"), Input("heatmap-chart", "id"))
 def update_heatmap(_):
-    adf = anomaly_df.copy()
-    adf["day_name"] = adf["timestamp"].dt.day_name()
-    adf["hour_val"] = adf["timestamp"].dt.hour
-
-    day_order = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
-
-    # Build pivot manually
-    heatmap_data = np.zeros((7, 24))
-    for _, row in adf.iterrows():
-        day_idx = day_order.index(row["day_name"]) if row["day_name"] in day_order else 0
-        heatmap_data[day_idx][int(row["hour_val"])] += 1
-
-    fig = go.Figure(go.Heatmap(
-        z=heatmap_data,
-        x=[f"{h:02d}:00" for h in range(24)],
-        y=day_order,
-        colorscale=[[0, "#0f172a"], [0.2, "#1e1b4b"], [0.4, "#4c1d95"], [0.6, "#7c3aed"], [0.8, "#c026d3"], [1, "#ef4444"]],
-        hovertemplate="Day: %{y}<br>Hour: %{x}<br>Anomalies: %{z}<extra></extra>",
-        showscale=True,
-        colorbar=dict(title="Count", titlefont=dict(color="#94a3b8"), tickfont=dict(color="#94a3b8")),
-    ))
-    layout = base_layout(350)
-    layout["xaxis"] = dict(gridcolor=GRID_COLOR, zerolinecolor=GRID_COLOR, tickangle=-45, dtick=3)
-    layout["yaxis"] = dict(gridcolor=GRID_COLOR, zerolinecolor=GRID_COLOR)
-    fig.update_layout(**layout)
-    return fig
+    return HEATMAP_FIG
 
 
 # ===== GEO MAP =====
@@ -675,10 +688,7 @@ def update_detail_panel(selected_rows, table_data):
 # ===== TOP ENTITIES =====
 @app.callback(Output("top-entities-chart", "figure"), Input("top-entities-chart", "id"))
 def update_top_entities(_):
-    top = anomaly_df.groupby("entity_id").agg(
-        total_anomalies=("entity_id", "count"),
-        avg_risk=("risk_score", "mean"),
-    ).sort_values("avg_risk", ascending=True).tail(15)
+    top = PRECOMPUTED_TOP_ENTITIES
 
     fig = go.Figure(go.Bar(
         y=top.index,
